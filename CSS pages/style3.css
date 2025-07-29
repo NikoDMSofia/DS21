@@ -42,7 +42,7 @@ img {
 
      .introduction {
         text-align: justify;
-        margin: 50px 10px;
+        margin: 50px 25px;
      }
 
     .boxes {
@@ -64,7 +64,7 @@ img {
         cursor: pointer;
     }
 
-    .first_exercises_image {
+    .first_exercises_image, .ending_details {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -97,6 +97,9 @@ img {
     span {
         text-transform: uppercase;
     }
+       
+
+    
 
     
 
