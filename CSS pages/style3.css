@@ -59,7 +59,39 @@ img {
         cursor: pointer;
     }
 
-    
+    .first_exercises_image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        margin: 50px  15px 10px 15px;
+
+
+        img {
+            width: 250px;
+        }
+
+        
+    }
+
+    .first_exercises_bottom {
+            text-align: justify;
+            margin: 0 25px 0 ;
+        }
+
+    .video {
+        display: flex;
+        justify-content: center;
+        margin: 10px 10px 50px;
+    }
+
+    .exe_name {
+        margin-top: 50px;
+        text-align: center;
+    }
+    span {
+        text-transform: uppercase;
+    }
 
     
 
