@@ -40,6 +40,11 @@ img {
         align-items: center;
      }
 
+     .introduction {
+        text-align: justify;
+        margin: 50px 10px;
+     }
+
     .boxes {
         display: flex;
         flex-wrap: wrap;
