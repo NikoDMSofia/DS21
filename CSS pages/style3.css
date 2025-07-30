@@ -8,9 +8,7 @@ img {
     width: 100%;
 }
 
-h1 {
-        font-size: 1.9rem;
-      }
+
 
 
 @media (min-width: 719px) {
@@ -22,8 +20,17 @@ h1 {
 
 
 @media (max-width: 720px) {
+    .head_content {
+        h1 {
+            font-size: 26px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+    }
     .head_content img {
         margin-top: -11%;
+        
     }
    .face_image {
     display: flex;
@@ -102,6 +109,8 @@ h1 {
     span {
         text-transform: uppercase;
     }
+
+    
        
 
     
