@@ -28,9 +28,6 @@ img {
 
 
 @media (max-width: 720px) {
-    .head_content img {
-        /* margin-top: -12%; */
-    }
    .face_image {
     display: flex;
     justify-content: center;
@@ -56,6 +53,8 @@ img {
             font-family: "Oswald", sans-serif;   
             background-color: #E7D3D3;
             border: 1px solid black;
+            color: black;
+            letter-spacing: 0.7px;
         }
      }
 
