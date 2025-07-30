@@ -23,6 +23,10 @@ img {
     .head_content {
         h1 {
             font-size: 26px;
+            span {
+                font-weight: lighter;
+                font-size: 24px;
+            }
         }
         h2 {
             font-size: 20px;
@@ -106,7 +110,7 @@ img {
         margin-top: 50px;
         text-align: center;
     }
-    span {
+    .exe_name span {
         text-transform: uppercase;
     }
 
