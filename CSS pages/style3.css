@@ -8,6 +8,10 @@ img {
     width: 100%;
 }
 
+h1 {
+        font-size: 1.9rem;
+      }
+
 
 @media (min-width: 719px) {
     .head_content {
@@ -25,11 +29,14 @@ img {
     display: flex;
     justify-content: left;
     align-items: center;
+
       img {
         border-radius: 50%;
         width: 30%;
         margin-top: -20%;
       }
+
+      
     }
      
      section {
