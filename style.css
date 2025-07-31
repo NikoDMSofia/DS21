@@ -20,22 +20,26 @@ img {
 
 
 @media (min-width: 719px) {
-    .head_content {
-        opacity: 0;
+    .container {
+        display: none;
     }
 
 }
 
-
 @media (max-width: 720px) {
-    
+   body {
+    background-image: url(images/haedBGimage.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: auto;
+   }
     .head_img_bg {
-        margin-top: -70px;
+        margin-top: -30px;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: rgba(255, 255, 255, 0.377);
-        padding: 30px 100px 50px;
+        padding:  0px 50px 80px 50px;        
     }
    .face_image {
     display: flex;
@@ -60,7 +64,7 @@ img {
             font-weight: 600;
             font-size: large;
             font-family: "Oswald", sans-serif;   
-            background-color: #E7D3D3;
+            background-color: #ffffff79;
             border: 1px solid black;
             color: black;
             letter-spacing: 0.7px;
@@ -70,9 +74,10 @@ img {
      
 .trener_name {
     text-align: center;
-    margin-top: -50px;
+    margin-top: -35px;
     font-family: "Oswald", sans-serif;    
     font-size: 40px;
+    color: #EEEEEE;
     
     span {
         font-size: 4rem;
@@ -86,10 +91,10 @@ img {
     text-align: center;
     text-transform: uppercase;
     font-size: 16px;
-    margin-top: -15px;
-    font-weight: bold;
-    background-color:  rgba(0, 0, 0, 0.575);
-    color: #EEEEEE;
+    margin-top: -5px;
+    font-weight: lighter;
+    background-color:  rgba(192, 27, 27, 0.404);
+    color: rgb(223, 214, 214);
     padding: 5px;
     letter-spacing: .2rem;
     text-shadow: 2px 2px black;
