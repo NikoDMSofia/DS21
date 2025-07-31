@@ -28,6 +28,13 @@ img {
 
 
 @media (max-width: 720px) {
+    .head_img_bg {
+        margin-top: -70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(217, 233, 129, 0.377);
+    }
    .face_image {
     display: flex;
     justify-content: center;
