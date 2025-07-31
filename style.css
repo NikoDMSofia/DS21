@@ -42,12 +42,14 @@ img {
         padding:  0px 50px 80px 50px;        
     }
    .face_image {
+    margin-top: -20px;
     display: flex;
     justify-content: center;
       img {
         border-radius: 100%;
         width: 30%;
         margin-top: -10%;
+        border: 10px solid rgb(16, 17, 22);
       }
     }
     .buttons {
@@ -76,27 +78,26 @@ img {
     text-align: center;
     margin-top: -35px;
     font-family: "Oswald", sans-serif;    
-    font-size: 40px;
-    color: #EEEEEE;
+    font-size: 1.5rem;
+    color: rgb(223, 214, 214);
+    text-transform: uppercase;
+    letter-spacing: 10px;
     
     span {
         font-size: 4rem;
         font-weight: bolder;
-        color: rgb(192, 27, 27);
+        color: rgba(192, 27, 27, 0.671);
         
     }
 }
 
 .personal_trainer {
     text-align: center;
-    /* text-transform: uppercase; */
-    /* font-size: 16px; */
-    /* margin-top: -5px; */
+    margin-top: -5px;
     font-weight: lighter;
     background-color:  rgba(192, 27, 27, 0.404);
     color: rgb(223, 214, 214);
     padding: 5px;
-    /* letter-spacing: .2rem; */
     text-shadow: 2px 2px black;
     font-family: "Oswald", sans-serif; 
 }
@@ -108,14 +109,14 @@ img {
 .waviy {
   position: relative;
   -webkit-box-reflect: below -8px linear-gradient(transparent, rgba(0, 0, 0, 0.048));
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .waviy span {
   position: relative;
   display: inline-block;
   color: #fff;
   text-transform: uppercase;
-  animation: waviy  2s  2;
+  animation: waviy  1.5s  1;
   animation-delay: calc(.1s * var(--i));
   
 }
@@ -126,6 +127,7 @@ img {
   10% {
     transform: translateY(-10px)
   }
-}
+} 
 
-    }
+
+}
