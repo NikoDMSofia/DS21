@@ -76,27 +76,28 @@ img {
     text-align: center;
     margin-top: -35px;
     font-family: "Oswald", sans-serif;    
-    font-size: 40px;
+    font-size: 2rem;
     color: #EEEEEE;
+    text-transform: uppercase;
     
     span {
         font-size: 4rem;
-        font-weight: bolder;
-        color: rgb(192, 27, 27);
+        font-weight: 600;
+        color: rgba(192, 27, 27, 0.699);
         
     }
 }
 
 .personal_trainer {
     text-align: center;
-    /* text-transform: uppercase; */
-    /* font-size: 16px; */
-    /* margin-top: -5px; */
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: -5px;
     font-weight: lighter;
     background-color:  rgba(192, 27, 27, 0.404);
     color: rgb(223, 214, 214);
     padding: 5px;
-    /* letter-spacing: .2rem; */
+    letter-spacing: .2rem;
     text-shadow: 2px 2px black;
     font-family: "Oswald", sans-serif; 
 }
@@ -105,27 +106,4 @@ img {
 
 
 
-.waviy {
-  position: relative;
-  -webkit-box-reflect: below -8px linear-gradient(transparent, rgba(0,0,0,.2));
-  font-size: 1.2rem;
 }
-.waviy span {
-  position: relative;
-  display: inline-block;
-  color: #fff;
-  text-transform: uppercase;
-  animation: waviy  2.5s 2 ;
-  animation-delay: calc(.1s * var(--i));
-  
-}
-@keyframes waviy {
-  0%,40%,100% {
-    transform: translateY(0)
-  }
-  7% {
-    transform: translateY(-7px)
-  }
-}
-
-    }
