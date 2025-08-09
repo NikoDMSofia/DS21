@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Oswald:wght@200..700&display=swap');
 
 
 
@@ -16,6 +17,9 @@ img {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
 
 
 
@@ -29,29 +33,118 @@ img {
 @media (max-width: 720px) {
    body {
     background-image: url(images/haedBGimage.jpg);
-    background-position: center;
-    background-repeat: none;
-    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(0, 0, 0);
    }
-    .head_img_bg {
-        margin-top: -30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: rgba(255, 255, 255, 0.377);
-        padding:  0px 50px 80px 50px;        
+  }
+  .drop_down {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+  }
+  .drop-down_manu {
+    /* background-color: black; */
+    position: absolute;
+    width: 30px;
+    margin: 20px;
+    opacity: 1;
+    opacity: .7;
+  }
+   .toop {
+    margin-top: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    img {
+      width: 50%;
     }
+}
+  
+    
+      
+
+
+
+    #vi_de_o {
+      margin-top: -8rem;
+      position: relative;
+      z-index: -1;
+      opacity: .3;
+    }
+
+   
+
    .face_image {
-    margin-top: -20px;
+    margin-top: -110px;
     display: flex;
     justify-content: center;
       img {
         border-radius: 100%;
         width: 30%;
         margin-top: -10%;
-        border: 10px solid rgb(16, 17, 22);
+        border: 1px solid rgb(0, 0, 0);
+        box-shadow: 0px 1px 0px rgba(255, 0, 0, 0.644);
+        
       }
     }
+
+    .letsGo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn {
+        
+  position: relative;
+  padding: 1.1rem 3rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  min-width: 200px;
+  z-index: 1;
+  margin: 40px 20px;
+}
+
+.neon-pulse {
+  background: #000;
+  border: 2px solid #0ff;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+  overflow: visible;
+}
+
+.neon-pulse::before,
+.neon-pulse::after {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  border: 2px solid #0ff;
+  border-radius: inherit;
+  animation: pulseOut 2s ease-out infinite;
+  opacity: 0;
+}
+
+.neon-pulse::after {
+  animation-delay: 1s;
+}
+
+@keyframes pulseOut {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
     .buttons {
         margin-top: 50px;
     }
@@ -70,13 +163,17 @@ img {
             border: 1px solid black;
             color: black;
             letter-spacing: 0.7px;
+            
         }
+        
+     }
+     .sunday {
+        margin-bottom: 50px;
      }
 
      
 .trener_name {
     text-align: center;
-    margin-top: -35px;
     font-family: "Oswald", sans-serif;    
     font-size: 1.5rem;
     color: rgb(223, 214, 214);
@@ -86,7 +183,7 @@ img {
     span {
         font-size: 4rem;
         font-weight: bolder;
-        color: rgba(192, 27, 27, 0.671);
+        color: rgba(192, 27, 27, 0.651);
         
     }
 }
@@ -95,16 +192,104 @@ img {
     text-align: center;
     margin-top: -5px;
     font-weight: lighter;
-    background-color:  rgba(192, 27, 27, 0.404);
+    background-color:  rgba(97, 90, 90, 0.384);
     color: rgb(223, 214, 214);
     padding: 5px;
     text-shadow: 2px 2px black;
     font-family: "Oswald", sans-serif; 
 }
 
+.aboout, p {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-align: justify;
+    padding: 10px 25px;
+    color: rgb(197, 197, 197);
+    margin-bottom: 20px;
+}
+
+
+.footer {
+    .img_footer_head {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 25px;
+    }
+
+     .footer_img {
+        width: 150px;
+    }
+
+     .social {
+      margin-top: 20p;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        background-color: #bebdbdf5;
+        padding: 5px;
+        border: 2px solid #ffffff79;
+        margin-bottom: 25px;
+    }
+
+    svg {
+        width:30px;
+        /* fill: red; */
+    }
+}  
+
+.under_futter {
+    height: 90ch;
+    color: white;
+    background-color: #0000003d;
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        animation: logo 3s linear infinite;
+    }
+
+    .tel {
+        font-size: 1.5rem;
+        padding: 7px 30px;
+        text-align: center;
+        font-family: "Goldman", sans-serif;
+        margin-bottom: 20px;
+        text-decoration: none;
+    }
+
+    .about_and {
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 1px;
+        text-align: justify;
+        padding: 10px 25px;
+        color: rgb(197, 197, 197);
+        margin-bottom: 20px;
+    }
+
+    
+}
+
+#bottomnes {
+        width: 100%;
+        height: 25px;
+        background-color: #797979f5;
+        margin-top: -20px;
+    }
+
 /* animation */
 
-
+@keyframes logo {
+    form {
+        transform: translateY(0)
+    }
+    50% {
+        transform: translateY(5px)
+    }
+    100%{
+        transform: (0);
+    }
+    
+}
 
 .waviy {
   position: relative;
@@ -128,6 +313,3 @@ img {
     transform: translateY(-10px)
   }
 } 
-
-
-}

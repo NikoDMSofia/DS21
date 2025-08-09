@@ -27,6 +27,9 @@ img {
 
 
 @media (max-width: 720px) {
+    .container {
+        background-color: blac;
+    }
     .screen {
         display: none;
     }
